@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>List_Item_Form</class>
+ <widget class="QWidget" name="List_Item_Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>450</width>
+    <height>71</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 8.5pt &quot;微软雅黑&quot;;</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>71</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-color: rgb(255, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::AutoText</enum>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="icon.qrc">:/new/icon/avatar.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>0</y>
+     <width>291</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>名字</string>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>0</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;查看详细信息&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton {
+    border-image: url(:/new/icon/more.png);
+    border-radius: 2px;
+    border: 1px solid rgb(89, 153, 48);
+    background:transparent;
+    color: green;
+}
+
+QToolButton:hover{
+  background-color:#86C6E9;
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+}
+
+QToolButton:pressed{
+  background-color:#CCCCCC;
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>40</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="cursor">
+    <cursorShape>PointingHandCursor</cursorShape>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;删除&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton {
+    border-image: url(:/new/icon/remove.png);
+    border-radius: 2px;
+    border: 1px solid rgb(89, 153, 48);
+    background:transparent;
+    color: green;
+}
+
+QToolButton:hover{
+  background-color:#86C6E9;
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+}
+
+QToolButton:pressed{
+  background-color:#CCCCCC;
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QToolButton" name="toolButton_3">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>20</y>
+     <width>61</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;生成祝贺文本&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QToolButton {
+    border-image: url(:/new/icon/icon_birth.png);
+    border-radius: 2px;
+    border: 1px solid rgb(89, 153, 48);
+    background:transparent;
+    color: green;
+}
+
+QToolButton:hover{
+  background-color:#86C6E9;
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+}
+
+QToolButton:pressed{
+  background-color:#CCCCCC;
+  border-radius:5px;
+  border: 1px solid #5F92B2;  
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="autoRepeat">
+    <bool>false</bool>
+   </property>
+   <property name="autoExclusive">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>30</y>
+     <width>291</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>电话</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>0</y>
+     <width>121</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_2</zorder>
+  <zorder>toolButton</zorder>
+  <zorder>toolButton_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>toolButton_3</zorder>
+  <zorder>label_4</zorder>
+ </widget>
+ <resources>
+  <include location="icon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

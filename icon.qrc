@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/new/icon">
+        <file>zoom34.png</file>
+        <file>more.png</file>
+        <file>remove.png</file>
+        <file>close.png</file>
+        <file>mini.png</file>
+        <file>plus.png</file>
+        <file>avatar_add.png</file>
+        <file>avatar.png</file>
+        <file>notebook62.png</file>
+        <file>icon_all.png</file>
+        <file>icon_birth.png</file>
+        <file>icon_classmate.png</file>
+        <file>icon_colleague.png</file>
+        <file>icon_friend.png</file>
+        <file>icon_home.png</file>
+        <file>icon_up.png</file>
+        <file>icon_down.png</file>
+    </qresource>
+</RCC>
